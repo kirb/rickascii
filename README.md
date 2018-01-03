@@ -12,7 +12,7 @@ A crazy command line “Never Gonna Give You Up” player. (Or anything else, I 
    ```bash
    bzip2 -9 < rickascii.frames > rickascii.bz2
    ```
-5. Using Audacity, I imported rick.mp4, converted the audio to mono (Tracks &rarr; Stereo Track to Mono), set the project rate to 11025 Hz, and exported as unsigned 8-bit PCM to rick.wav. Click File &rarr; Export, set the format to Other, then set the format to an unsigned 8-bit PCM WAV:
+5. Using Audacity, I imported rick.mp4, converted the audio to mono (Tracks &rarr; Stereo Track to Mono), set the project rate to 11025 Hz, and exported as unsigned 8-bit PCM to rick.wav. Click File &rarr; Export, set the format to Other, then set the format to an unsigned 8-bit PCM WAV:  
    ![Audacity export](https://i.imgur.com/iZO0C8n.png)  
    This was the best and smallest I could get on Tiny Core. On other systems, you should be able to use the even smaller GSM encoding - for me, 8-bit PCM was 2.3 MB, while GSM was 461 KB.
 6. That was bzipped too:
